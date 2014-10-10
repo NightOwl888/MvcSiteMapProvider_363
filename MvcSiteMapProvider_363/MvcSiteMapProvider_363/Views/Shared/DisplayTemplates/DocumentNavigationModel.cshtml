@@ -1,0 +1,12 @@
+﻿@model MvcSiteMapProvider_363.HtmlHelpers.DocumentNavigationModel
+@using System.Web.Mvc.Html
+@using MvcSiteMapProvider.Web.Html.Models
+
+@{ var node = Model.Node; }
+
+@if (node != null && node.Clickable) 
+{ 
+    <a href="@node.Url" title="@node.Title">@Model.Text</a> 
+} else { 
+    <text>@Model.Text</text>
+}

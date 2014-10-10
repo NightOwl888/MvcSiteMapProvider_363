@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mvcSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0"
+            xsi:schemaLocation="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0 MvcSiteMapSchema.xsd">
+
+  <mvcSiteMapNode title="Home" controller="Home" action="Index">
+    <mvcSiteMapNode title="Getting Started" action="GettingStarted">
+      <mvcSiteMapNode title="Intro" action="Intro"/>
+      <mvcSiteMapNode title="Installation" action="Installation"/>
+      <mvcSiteMapNode title="Usage" action="Usage"/>
+    </mvcSiteMapNode>
+    <mvcSiteMapNode title="Details" action="Details">
+      <mvcSiteMapNode title="Feature 1" action="Feature1"/>
+      <mvcSiteMapNode title="Feature 2" action="Feature2"/>
+    </mvcSiteMapNode>
+    <mvcSiteMapNode title="Other" action="Other">
+      <mvcSiteMapNode title="License" action="License"/>
+      <mvcSiteMapNode title="Support" action="Support"/>
+    </mvcSiteMapNode>
+  </mvcSiteMapNode>
+
+</mvcSiteMap>
