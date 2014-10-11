@@ -14,7 +14,7 @@ Files Added:
 
 Web.config changes:
 
- 1. Added <add namespace="MvcSiteMapProvider_363.HtmlHelpers"/>
- 2. Added <add namespace="MvcSiteMapProvider_363.HtmlHelpers"/> to /Views/Web.config
+ 1. Added `<add namespace="MvcSiteMapProvider_363.HtmlHelpers"/>`
+ 2. Added `<add namespace="MvcSiteMapProvider_363.HtmlHelpers"/>` to /Views/Web.config
 
 Modified the /Views/Shared/_Layout.cshtml to display the HTML helpers.
